@@ -1,4 +1,4 @@
-# limassage
+# obs-limassage
 Sistema de envio de mensagem para OBS estilo [Streamelements](https://streamelements.com/)
 
 ## Exemplo
