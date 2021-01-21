@@ -1,0 +1,33 @@
+.message--counter {
+  position: absolute;
+  bottom: 22px;
+  right: 20px;
+  font-size: 15px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.btn-message {
+  background: #007bff;
+  border-radius: 5px;
+  border: 0px;
+  color: #FFF;
+  font-weight: bold;
+  height: 50px;
+  transition: background 0.2s ease 0s, color 0.2s ease 0s;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.btn-message:hover {
+  background: #0062cc;
+  color: #FFF;
+}
+
+.btn-message:disabled, .btn-message button[disabled] {
+  cursor: not-allowed;
+}

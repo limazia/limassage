@@ -1,0 +1,100 @@
+.box {
+  margin: 40px auto;
+  text-align: center;
+}
+
+.box-image {
+  margin: 0;
+  padding: 0;
+}
+
+.box-image img {
+  width: 700px;
+}
+
+.box-title {
+  margin-top: 20px;
+}
+
+.box-title h1,
+span {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.box-message {
+  padding: 0 300px;
+  word-wrap: break-word;
+  font-size: 20px;
+}
+
+.user,
+.item {
+  -webkit-text-stroke: 0.8px black;
+  color: #32C3A6;
+}
+
+.base,
+.message {
+  color: #FFFFFF;
+  text-shadow: 2px 2px #000000;
+}
+
+.box-preview-image {
+  margin: 0;
+  padding: 0;
+}
+
+.box-preview-image img {
+  width: 350px;
+}
+
+.box-preview-message {
+  width: 20rem;
+  max-height: 370px;
+  word-wrap: break-word;
+  font-size: 20px;
+}
+
+textarea {
+  resize: none;
+}
+
+.bar {
+  position: absolute;
+  margin-top: 5px;
+  height: 5px;
+  width: 700px;
+}
+
+.progress {
+  animation: fill 9.7s linear 1;
+  height: 100%;
+  background-color: rgb(255, 14, 54);
+}
+
+.fadeout {
+  animation: out 9.7s linear 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fill {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes out {
+  93% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}

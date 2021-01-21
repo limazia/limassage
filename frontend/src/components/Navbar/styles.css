@@ -1,0 +1,18 @@
+.btn-outline-message {
+  color: #007bff;
+  border-color: #007bff;
+  transition: background 0.2s ease 0s, color 0.2s ease 0s;
+}
+
+.btn-outline-message:hover {
+  color: #0062cc;
+  border-color: #0062cc;
+}
+
+.btn-outline-message:not(:disabled):not(.disabled).active,
+.btn-outline-message:not(:disabled):not(.disabled):active,
+.show>.btn-outline-message.dropdown-toggle {
+  color: #fff;
+  background-color: #0062cc;
+  border-color: #0062cc;
+}

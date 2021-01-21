@@ -1,0 +1,9 @@
+.page-link:disabled, .page-link button[disabled] {
+  cursor: not-allowed;
+}
+
+.page-link:hover:disabled, .page-link button[disabled] {
+  color: #007bff;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+}
